@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2023-11-29T17:28:25.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="jd0Z88XXmsGbn_gkAxhd" version="22.1.2" type="device">
+  <diagram name="Página-1" id="EX2EAEuPFACzeS71dRoX">
+    <mxGraphModel dx="1436" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oAvafqFH08U5kHhbzUu4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-1" target="oAvafqFH08U5kHhbzUu4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-1" target="oAvafqFH08U5kHhbzUu4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="243" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-3" target="oAvafqFH08U5kHhbzUu4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-3" value="Realiza pedido de ingresso" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="176" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-6" target="oAvafqFH08U5kHhbzUu4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-20" value="Se existem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oAvafqFH08U5kHhbzUu4-19">
+          <mxGeometry x="-0.394" y="3" relative="1" as="geometry">
+            <mxPoint x="20" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-6" value="Consulta ingressos disponíveis" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="166.5" width="158" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-12" value="Diminui quantidade de ingressos disponíveis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="841" y="176" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-13" target="oAvafqFH08U5kHhbzUu4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-22" value="Se sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oAvafqFH08U5kHhbzUu4-16">
+          <mxGeometry x="-0.1745" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-13" target="oAvafqFH08U5kHhbzUu4-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="182" y="372" as="sourcePoint" />
+            <mxPoint x="244" y="488" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="182" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-26" value="Se não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oAvafqFH08U5kHhbzUu4-25">
+          <mxGeometry x="0.2089" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-13" value="Finaliza pagamento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="299" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-15" target="oAvafqFH08U5kHhbzUu4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-15" value="Consulta ingresso do cliente" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="297" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-17" value="Libera ingresso para cliente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="302" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oAvafqFH08U5kHhbzUu4-18" target="oAvafqFH08U5kHhbzUu4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-18" value="Bloqueia ingresso para cliente até o pagamento" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="619" y="171" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oAvafqFH08U5kHhbzUu4-24" value="Retorna ingresso para quantidade disponível" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="418" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
